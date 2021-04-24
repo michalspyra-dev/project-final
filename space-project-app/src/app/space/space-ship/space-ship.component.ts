@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpaceShipComponent implements OnInit {
 
+  spaceShip={
+    modelName: 'Boeing',
+    imigaUrl: '/assets/spaceship.png',
+    health: 75,
+    activeShields: true,
+    activeWeapons: false,
+    
+  }
+
   constructor() { }
 
   ngOnInit(): void {

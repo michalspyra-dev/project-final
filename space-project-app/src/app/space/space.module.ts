@@ -12,7 +12,8 @@ import { SpaceShipComponent } from './space-ship/space-ship.component';
     SpaceShipComponent
   ],
   exports: [
-    HangarComponent
+    HangarComponent,
+    SpaceShipComponent
   ],
   imports: [
     CommonModule,
