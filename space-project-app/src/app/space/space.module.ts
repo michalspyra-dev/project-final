@@ -3,17 +3,18 @@ import { CommonModule } from '@angular/common';
 
 import { SpaceRoutingModule } from './space-routing.module';
 import { HangarComponent } from './hangar/hangar.component';
-import { SpaceShipComponent } from './space-ship/space-ship.component';
+import { SpaceShipsComponent } from './space-ships/space-ships.component';
+import { SpaceShips2Component } from './space-ships2/space-ships2.component';
 
 
 @NgModule({
   declarations: [
     HangarComponent,
-    SpaceShipComponent
+    SpaceShipsComponent,
+    SpaceShips2Component
   ],
   exports: [
-    HangarComponent,
-    SpaceShipComponent
+    HangarComponent
   ],
   imports: [
     CommonModule,
